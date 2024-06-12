@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1603600113"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://pramod:<password>@cluster0.1flc4fe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_URI = "mongodb+srv://pramod:<password>@clusterbot.xpkuflf.mongodb.net/?retryWrites=true&w=majority&appName=Clusterbot"
+DB_NAME = os.environ.get("DATABASE_NAME", "Clusterbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gplinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "79783ab175841584f01dfd3b898ee061e797cfea")
